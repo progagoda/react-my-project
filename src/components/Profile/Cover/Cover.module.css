@@ -1,0 +1,9 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.wrapper img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 250px;
+}

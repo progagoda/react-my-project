@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    justify-content:right;
+    height: fit-content;
+    width: 20%;
+    flex-direction: column;
+}
+.border{
+    padding: 30px;
+    min-width: 200px;
+    background-color: whitesmoke ;
+    border-radius: 10px;
+    box-shadow:inset #ff0000 0 0 5px 5px,
+    #ff0000 0 0 10px 5px;
+}
+.border*{
+    color:black
+}

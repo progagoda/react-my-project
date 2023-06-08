@@ -1,0 +1,33 @@
+.header{
+    grid-area:h;
+    background: rgb(248,31,12);
+    background: linear-gradient(180deg, rgba(248,31,12,1) 0%, rgba(255,0,0,0) 66%, rgba(245,5,5,0) 100%);
+     background-color: black;
+    align-items: flex-start;
+    display: flex;
+    height: 100%;
+    color:white;
+    justify-content:left;
+    flex-flow: row nowrap;
+}
+.header img{
+    object-fit: cover;
+    height: 100%;
+    padding-left: 5px;
+
+}
+.header_text{
+    padding-left: 5px;
+    flex-shrink: 0;
+    align-self: center;
+    width: 40%;
+}
+.header_profile{
+    margin-left: auto;
+    padding: 10px;
+    align-self: center;
+}
+.header_profile *{
+    color:white;
+    text-decoration: none;
+}

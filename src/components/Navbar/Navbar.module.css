@@ -1,0 +1,60 @@
+.nav {
+    padding: 10px;
+    grid-area: n;
+    background-color: darkslategrey;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.item img {
+
+    padding-right: 5px;
+    max-height: 15%;
+    max-width: 15%;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+}
+
+.item a.active {
+    padding: 2px;
+    color: black;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+.bestfriend{
+
+    padding: 3px;
+    text-align: center;
+    background: black;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-weight: 900;
+}
+.bestfriend__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.friendsItem{
+    padding:5px;
+}
+.friendsItem .name{
+    padding:2px ;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.friendsItem img {
+    padding-top:5px;
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 10px;
+}

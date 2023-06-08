@@ -1,0 +1,38 @@
+.content {
+    margin-top: 5px;
+    grid-area: c;
+    background-color: rgb(245, 255, 250);
+    width: fit-content;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.wrapper {
+    display: flex;
+
+    align-items: center;
+}
+
+.wrapper button {
+    background: whitesmoke;
+    border-radius: 10px;
+    color: black;
+    font-weight: 900;
+    padding: 8px;
+}
+
+.wrapper textarea {
+    border: 1px solid #000;
+    border-radius: 10px;
+    resize:none;
+    min-width: 230px;
+    min-height: 50px;
+}
+
+.content img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: auto auto;
+}

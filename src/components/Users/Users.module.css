@@ -1,0 +1,78 @@
+.wrapper {
+    display: flex;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin:10px;
+    justify-content: space-between;
+
+}
+.pageCounter{
+    background:whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    margin-top:5px;
+    width: fit-content;
+}
+.pageCounter *{
+    padding:5px;
+}
+.preloader{
+    margin-left:38% ;
+}
+.pageCounter span:hover{
+    cursor:pointer;
+    background-color: grey;
+    border-radius: 10px;
+    padding-right:15px;
+    padding-left: 15px;
+}
+
+.selectedPage{
+    font-weight: bold;
+    padding-right:15px;
+    padding-left: 15px;
+    background-color: darkgreen;
+    border-radius: 10px;
+
+}
+.wrapper .body{
+    display:flex;
+    margin-top:8px;
+}
+.wrapper .border{
+
+    background: black;
+    border-radius: 10px;
+    color:whitesmoke;
+    padding-left: 3px;
+    padding-right: 3px;
+
+}
+.wrapper .location{
+    padding:8px;
+}
+.wrapper .status{
+    margin:3px;
+    background-color: rgb(245, 255, 250);
+    border-radius: 10px;
+    padding: 3px;
+    font-family: 'Akshar', sans-serif;
+    font-size: 20px;
+}
+.wrapper img{
+    margin:3px;
+    margin-top:-1px;
+    border-radius: 10px ;
+    width: 80px;
+    height: 80px;
+}
+ button {
+    margin: 3px;
+    background: whitesmoke;
+    border-radius: 10px;
+    color: black;
+    font-weight: 900;
+    padding: 8px;
+}
